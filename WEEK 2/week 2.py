@@ -89,12 +89,6 @@ def findobjects(outputs,img):
         i=i-1
 
         
-def func(pct, allvalues): 
-    absolute = int(pct / 100.*np.sum(allvalues)) 
-    return "{:.1f}%\n({:d} g)".format(pct, absolute) 
-
-
-
      
          
 while True:
